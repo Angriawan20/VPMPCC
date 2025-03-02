@@ -99,7 +99,7 @@ roslaunch nonlinear_mpc_casadi ddrx_nmpcc.launch
 
 <div style="display: flex; justify-content: space-between; align-items: center;">
   <img src="./media/runtime.gif" alt="teaser" width="460" />
-  <img src="./media/sim.gif" alt="teaser" width="340" />
+  <img src="./media/sim.gif" alt="teaser" width="305" />
 </div>
 
 ## 💻 Customization
