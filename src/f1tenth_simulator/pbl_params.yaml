@@ -1,0 +1,61 @@
+# The distance between the front and
+# rear axle of the racecar
+wheelbase: 0.319 # meters
+width: 0.29 # meters
+
+# steering delay
+buffer_length: 5
+
+# Limits on the speed and steering angle
+max_speed: 15 #  meters/second
+max_steering_angle: 0.40 # radians
+
+max_steering_vel: 3.2 # radians/second
+friction_coeff: 0.88639 # - (complete estimate) same as tire model
+
+# The rate at which the pose and the lidar publish
+update_pose_rate: 0.01
+
+# Lidar simulation parameters
+scan_beams: 1080
+scan_field_of_view: 4.71 
+
+# The distance from the center of the
+# rear axis (base_link) to the lidar
+scan_distance_to_base_link: 0.301 # meters
+
+# The standard deviation of the noise applied
+# to the lidar simulation
+scan_std_dev: 0.01 # meters
+
+# The probability threshold for points
+# in the occupancy grid to be considered "free".
+# Used for the lidar simulator.
+map_free_threshold: 0.8
+
+# Time to collision cutoff value
+ttc_threshold: 0.01
+
+# obstacle parameters
+obstacle_size: 2
+
+# The names of topics to listen and publish to
+joy_topic: "/joy"
+drive_topic: "/vesc/high_level/ackermann_cmd_mux/input/nav_1"
+map_topic: "/map"
+scan_topic: "/scan"
+pose_topic: "/weirdo"
+ground_truth_pose_topic: "/tracked_pose"
+odom_topic: "/state_estimation/odom"
+pitch_topic: "/car_state/pitch"
+imu_topic: "/wit/imu"
+pose_rviz_topic: "/initialpose"
+
+# The names of the transformation frames published to
+map_frame: "map"
+base_frame: "base_link"
+scan_frame: "laser"
+imu_frame: "imu_link"
+
+broadcast_transform: true
+publish_ground_truth_pose: true

@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+
+<launch>
+    <rosparam file="/home/ddrx/f1tenth_ws/params/ddrx_unified_params.yaml" command="load"/>
+    <node name="mpc_node" pkg="nonlinear_mpc_casadi" type="planner_loader.py" output="screen"/>
+</launch>
+

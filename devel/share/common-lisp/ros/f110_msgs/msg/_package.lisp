@@ -1,0 +1,33 @@
+(cl:defpackage f110_msgs-msg
+  (:use )
+  (:export
+   "<CARSTATE>"
+   "CARSTATE"
+   "<CARSTATESTAMPED>"
+   "CARSTATESTAMPED"
+   "<GAPDATA>"
+   "GAPDATA"
+   "<LAPDATA>"
+   "LAPDATA"
+   "<OTWPNTARRAY>"
+   "OTWPNTARRAY"
+   "<OBSTACLE>"
+   "OBSTACLE"
+   "<OBSTACLEARRAY>"
+   "OBSTACLEARRAY"
+   "<OPPWPNT>"
+   "OPPWPNT"
+   "<OPPONENTTRAJECTORY>"
+   "OPPONENTTRAJECTORY"
+   "<PIDDATA>"
+   "PIDDATA"
+   "<PROJOPPPOINT>"
+   "PROJOPPPOINT"
+   "<PROJOPPTRAJ>"
+   "PROJOPPTRAJ"
+   "<WPNT>"
+   "WPNT"
+   "<WPNTARRAY>"
+   "WPNTARRAY"
+  ))
+
