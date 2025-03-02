@@ -3,7 +3,7 @@
 Deploy and visualize the trajectory planner from ICRA 2025 paper "[A Data-Driven Aggressive Autonomous Racing Framework Utilizing Local Trajectory Planning with Velocity Prediction](https://arxiv.org/pdf/2410.11570)". The main branch contains the F1tenth simulator and the VPMPCC planner.
 
 <div style="display: flex; justify-content: space-between; align-items: center;">
-  <img src="./media/teaser.jpg" alt="teaser" width="440" />
+  <img src="./media/teaser.jpg" alt="teaser" width="420" />
   <img src="./media/vpmpcc.gif" alt="teaser" width="360" />
 </div>
 
