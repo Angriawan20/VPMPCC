@@ -1,4 +1,4 @@
-# 🏎️ Local Trajectory Planning with Velocity Prediction
+# 🏁 Local Trajectory Planning with Velocity Prediction
 
 Deploy and visualize the trajectory planner from ICRA 2025 paper "[A Data-Driven Aggressive Autonomous Racing Framework Utilizing Local Trajectory Planning with Velocity Prediction](https://arxiv.org/pdf/2410.11570)". The main branch contains the F1tenth simulator and the VPMPCC planner.
 
